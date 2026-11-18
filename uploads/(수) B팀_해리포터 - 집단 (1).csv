@@ -1,0 +1,11 @@
+class,name,name_ko,type,reference,Cypher
+group,Gryffindor,그리핀도르,기숙사,"기숙사 배정식(해리·론·헤르미온느 배정), 기숙사 우승컵 시상","MERGE (n:group {name: 'Gryffindor'}) SET n.class = 'group', n.name_ko = '그리핀도르', n.type = '기숙사', n.reference = '기숙사 배정식(해리·론·헤르미온느 배정), 기숙사 우승컵 시상';"
+group,Slytherin,슬리데린,기숙사,"기숙사 배정식(말포이 배정), 스네이프가 사감, 기숙사 우승컵 시상","MERGE (n:group {name: 'Slytherin'}) SET n.class = 'group', n.name_ko = '슬리데린', n.type = '기숙사', n.reference = '기숙사 배정식(말포이 배정), 스네이프가 사감, 기숙사 우승컵 시상';"
+group,Hufflepuff,후플푸프,기숙사,"맥고나걸의 기숙사 소개, 배정식(수잔 본즈 배정)","MERGE (n:group {name: 'Hufflepuff'}) SET n.class = 'group', n.name_ko = '후플푸프', n.type = '기숙사', n.reference = '맥고나걸의 기숙사 소개, 배정식(수잔 본즈 배정)';"
+group,Ravenclaw,래번클로,기숙사,"맥고나걸의 기숙사 소개, 연회 후 래번클로 반장 인솔","MERGE (n:group {name: 'Ravenclaw'}) SET n.class = 'group', n.name_ko = '래번클로', n.type = '기숙사', n.reference = '맥고나걸의 기숙사 소개, 연회 후 래번클로 반장 인솔';"
+group,Gryffindor Quidditch Team,그리핀도르 퀴디치 팀,팀,"우드(파수꾼), 프레드·조지(몰이꾼), 안젤리나(추격꾼), 해리(수색꾼) / 첫 퀴디치 경기","MERGE (n:group {name: 'Gryffindor Quidditch Team'}) SET n.class = 'group', n.name_ko = '그리핀도르 퀴디치 팀', n.type = '팀', n.reference = '우드(파수꾼), 프레드·조지(몰이꾼), 안젤리나(추격꾼), 해리(수색꾼) / 첫 퀴디치 경기';"
+group,Slytherin Quidditch Team,슬리데린 퀴디치 팀,팀,"마커스 플린트(주장), 블레칠리 / 첫 퀴디치 경기","MERGE (n:group {name: 'Slytherin Quidditch Team'}) SET n.class = 'group', n.name_ko = '슬리데린 퀴디치 팀', n.type = '팀', n.reference = '마커스 플린트(주장), 블레칠리 / 첫 퀴디치 경기';"
+group,Potter Family,포터 가족,가문,제임스·릴리 포터와 해리 / 해그리드·페투니아의 설명,"MERGE (n:group {name: 'Potter Family'}) SET n.class = 'group', n.name_ko = '포터 가족', n.type = '가문', n.reference = '제임스·릴리 포터와 해리 / 해그리드·페투니아의 설명';"
+group,Dursley Family,더즐리 가족,가문,버논·페투니아·두들리 / 프리벳가 장면,"MERGE (n:group {name: 'Dursley Family'}) SET n.class = 'group', n.name_ko = '더즐리 가족', n.type = '가문', n.reference = '버논·페투니아·두들리 / 프리벳가 장면';"
+group,Weasley Family,위즐리 가문,가문,"몰리·퍼시·프레드·조지·론·지니, 찰리(루마니아) / 9와 3/4 승강장","MERGE (n:group {name: 'Weasley Family'}) SET n.class = 'group', n.name_ko = '위즐리 가문', n.type = '가문', n.reference = '몰리·퍼시·프레드·조지·론·지니, 찰리(루마니아) / 9와 3/4 승강장';"
+group,Hogwarts Teachers,호그와트 교수진,교직원,"트롤 침입 시 지하로 이동, 마법사의 돌을 지키는 교수들(해그리드 발언)","MERGE (n:group {name: 'Hogwarts Teachers'}) SET n.class = 'group', n.name_ko = '호그와트 교수진', n.type = '교직원', n.reference = '트롤 침입 시 지하로 이동, 마법사의 돌을 지키는 교수들(해그리드 발언)';"
