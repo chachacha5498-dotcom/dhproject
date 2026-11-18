@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "neo4j": {
+      "command": "npx",
+      "args": ["-y", "@alanse/mcp-neo4j-server"],
+      "env": {
+        "NEO4J_URI": "neo4j+s://e480dce8.databases.neo4j.io",
+        "NEO4J_USERNAME": "e480dce8",
+        "NEO4J_PASSWORD": "GdSfqbCascBfX5PU2EWWOYvPXz3ecTlapOE6YfKt9iU",
+        "NEO4J_DATABASE": "e480dce8"
+      }
+    }
+  }
+}
